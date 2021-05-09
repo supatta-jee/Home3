@@ -1,0 +1,137 @@
+<div class="nav-bar"> 
+    <nav>
+        <input type="text"  placeholder="Search settings" ><i class="bi bi-search"></i><br>
+        &nbsp;&nbsp;&nbsp;<b class="bi bi-tv-fill"> Dashboard</b>
+        <ul>
+            
+                <a (click)="icon1=!icon1" type="button" data-bs-toggle="collapse" ria-expanded="false"
+                    data-bs-target="#Text" aria-controls="Text">
+                    <i class="bi bi-chevron-compact-down" *ngIf="icon1"></i>
+                    <i class="bi bi-chevron-right" *ngIf="!icon1" class="bi bi-journal-bookmark-fill"></i>
+                    Catalog
+                </a>
+            
+            <div class="collapse" id="Text">
+                <a>Software</a><br>
+                <a>Hardware</a><br>
+                <a>Keyboard</a><br>
+                <a>memory</a><br>
+                <a>Input unit</a>
+            </div>
+
+            <br>
+                <a (click)="icon2=!icon2" type="button" data-bs-toggle="collapse" data-bs-target="#Workbenck"
+                    aria-controls="Workbenck">
+                    <i class="bi bi-chevron-compact-down" *ngIf="icon2"></i>
+                    <i class="bi bi-chevron-right" *ngIf="!icon2" class="bi bi-cart3"></i>
+                    Sales
+                </a>
+            
+            <div class="collapse" id="Workbenck">
+                <a>1</a><br>
+                <a>2</a><br>
+                <a>3</a>
+            </div>
+            <br>
+           
+                <a (click)="icon3=!icon3" type="button" data-bs-toggle="collapse" data-bs-target="#Window"
+                    aria-controls="Window">
+                    <i class="bi bi-chevron-compact-down" *ngIf="icon3"></i>
+                    <i class="bi bi-chevron-right" *ngIf="!icon3" class="bi bi-person"></i>
+                    Customers
+                </a>
+            
+            <div class="collapse" id="Window">
+                <li><a>Window 2020</a></li>
+            </div>
+
+            <br>
+                <a (click)="icon4=!icon4" type="button" data-bs-toggle="collapse" data-bs-target="#Features"
+                    aria-controls="Features">
+                    <i class="bi bi-chevron-compact-down" *ngIf="icon4"></i>
+                    <i class="bi bi-chevron-right" *ngIf="!icon4" class="bi bi-handbag"></i >
+                    Promotions
+                </a>
+            
+
+            <div class="collapse" id="Features">
+                <a>1</a><br>
+                <a>2</a><br>
+                <a>3</a>
+            </div>
+            <br>
+            
+                <a (click)="icon5=!icon5" type="button" data-bs-toggle="collapse" data-bs-target="#Application"
+                    aria-controls="Application">
+                    <i class="bi bi-chevron-compact-down" *ngIf="icon5"></i>
+                    <i class="bi bi-chevron-right" *ngIf="!icon5" class="bi bi-lightning"></i>
+                    Content management
+                </a>
+            
+
+            <div class="collapse" id="Application">
+                <a>1</a><br>
+                <a>2</a><br>
+                <a>3</a>
+            </div>
+
+            <br>
+                <a (click)="icon6=!icon6" type="button" data-bs-toggle="collapse" data-bs-target="#Extensions"
+                    aria-controls="Extensions">
+                    <i class="bi bi-chevron-compact-down" *ngIf="icon6"></i>
+                    <i class="bi bi-chevron-right" *ngIf="!icon6" class="bi bi-gear-wide-connected"></i>
+                    Configuration
+                </a>
+            
+            <div class="collapse" id="Extensions">
+                <a>1</a><br>
+                <a>2</a><br>
+                <a>3</a>
+            </div>
+
+            <br>
+                <a (click)="icon7=!icon7" type="button" data-bs-toggle="collapse" data-bs-target="#System"
+                    aria-controls="System">
+                    <i class="bi bi-chevron-compact-down" *ngIf="icon7"></i>
+                    <i class="bi bi-chevron-right" *ngIf="!icon7" class="bi bi-gear-wide-connected" class="bi bi-tablet-landscape"></i>
+                    System
+                </a>
+            
+            <div class="collapse" id="System">
+                <a>1</a><br>
+                <a>2</a><br>
+                <a>3</a>
+            </div>
+
+            <br>
+                <a (click)="icon8=!icon8" type="button" data-bs-toggle="collapse" data-bs-target="#Reports"
+                    aria-controls="Reports">
+                    <i class="bi bi-chevron-compact-down" *ngIf="icon8"></i>
+                    <i class="bi bi-chevron-right" *ngIf="!icon8" class="bi bi-gear-wide-connected" class="bi bi-tablet-landscape" class="bi bi-graph-up"></i>
+                    Reports
+                </a>
+            
+            <div class="collapse" id="Reports">
+                <a>1</a><br>
+                <a>2</a><br>
+                <a>3</a>
+            </div>
+
+            <br>
+                <a (click)="icon9=!icon9" type="button" data-bs-toggle="collapse" data-bs-target="#Help"
+                    aria-controls="Help">
+                    <i class="bi bi-chevron-compact-down" *ngIf="icon9"></i>
+                    <i class="bi bi-chevron-right" *ngIf="!icon9" class="bi bi-gear-wide-connected" class="bi bi-tablet-landscape" class="bi bi-graph-up" class="bi bi-github"></i>
+                    Help
+                </a>
+            
+            <div class="collapse" id="Help">
+                <a>1</a><br>
+                <a>2</a><br>
+                <a>3</a>
+            </div>
+
+
+        </ul>
+    </nav>
+</div>
